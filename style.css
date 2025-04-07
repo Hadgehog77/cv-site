@@ -69,6 +69,7 @@ body {
         text-align: center;
         flex-wrap: wrap;
         align-content: center;
+        justify-content: center;
     }
 }
 
@@ -174,5 +175,22 @@ form {
         width: 100%;
         margin-right: 0;
         margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 390px) {
+    .info {
+        justify-content: center;
+    }
+
+    table {
+        width: 380px;
+    }
+}
+
+@media (max-width: 390px) {
+    .container {
+        max-width: 390px;
+        margin: auto;
     }
 }
