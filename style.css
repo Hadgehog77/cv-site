@@ -176,6 +176,10 @@ form {
         margin-right: 0;
         margin-bottom: 10px;
     }
+
+    table {
+        width: 380px;
+    }
 }
 
 @media (max-width: 390px) {
@@ -186,9 +190,7 @@ form {
     table {
         width: 380px;
     }
-}
 
-@media (max-width: 390px) {
     .container {
         max-width: 390px;
         margin: auto;
